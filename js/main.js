@@ -112,6 +112,7 @@ function gameLoop () {
     hero.render();
 }
 
+// change 
 // ====================== COLLISION DETECTION ======================= //
 /**
  * @function detectHit
