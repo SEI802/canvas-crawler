@@ -15,7 +15,7 @@ ctx.lineWidth = 5;
 
 game.setAttribute("height", getComputedStyle(game)["height"]);
 game.setAttribute('width', getComputedStyle(game)['width']);
-console.log('width', game.width);
+
 // ====================== ENTITIES ======================= //
 class Crawler {
     constructor(x, y, color, width, height) {
@@ -47,7 +47,6 @@ function drawBox(x, y, size, color) {
 }
 
 //  GUI
-
 function addNewShrek() {
     shrek.alive = false;
     setTimeout(() => {
