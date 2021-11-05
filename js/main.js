@@ -1,6 +1,11 @@
 // GLOBAL DOM / VARIABLES
 
 
+// ====================== PAINT INTIAL SCREEN ======================= //
+
+// EVENT LISTENERS
+
+
 // ====================== SETUP FOR CANVAS RENDERING ======================= //
 // 2D rendering context for canvas element.
 // It is used for drawing shapes, text, images, and other objects.
@@ -20,8 +25,8 @@
 
 // ====================== COLLISION DETECTION ======================= //
 
-// ====================== PAINT INTIAL SCREEN ======================= //
 
-// EVENT LISTENERS
 
+// **********************************
 // CODE STASH FOR OLD CODE
+// **********************************
