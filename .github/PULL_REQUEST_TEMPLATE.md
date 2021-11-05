@@ -1,9 +1,14 @@
-**Deliverable Submission**
+## Reflection
 
-Please describe your comfort and completeness levels before submitting.
+Remember to answer these 5 questions?
+- [ ] `1` What did you learn? (topic)
+- [ ] `2` What was the purpose of this deliverable?
+- [ ] `3` Provide a example (code snippet)
+- [ ] `4` How do to implement it? (don't have to answer, you completed the work)
+- [ ] `5` Why? (what is yours)
 
-Comfort Level (1-5):
 
-Completeness Level (1-5):
+## Add Notes
+🏎🏎🏎 Add reflection
 
-Do you have any remaining questions about this deliverable?:
+😵😵😵 If there was a blocker, please add below:
