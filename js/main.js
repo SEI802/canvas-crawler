@@ -33,6 +33,16 @@ class Crawler {
     }
 }
 
+// EVENT LISTENERS
+window.addEventListener("DOMContentLoaded", (e) => {
+    donkey = new Crawler(10, 20, "blue", 20, 20);
+    shrek = new Crawler(100, 200, '#bada55', 40, 80);
+
+    const runGame = setInterval(gameLoop, 120);
+});
+
+document.addEventListener('keydown', movementHandler);
+
 // ====================== HELPER FUNCTIONS ======================= //
 // SANDBOX FOR TESTING PAINTING TECHNIQUES
 function testPaint(x, y, width, height) {
@@ -98,17 +108,17 @@ function gameLoop () {
     // clear the canvas
     ctx.clearRect(0, 0, game.width, game.height);
     // @todo - add score
-    // display the x and y coords of our hero
-    movementDisplay.textContent = `X:${hero.x}\nY:${hero.y}`;
+    // display the x and y coords of our donkey
+    movementDisplay.textContent = `X:${donkey.x}\nY:${donkey.y}`;
     // check to see if shrek is alive
     if (shrek.alive) { // 
         // render shrek
         shrek.render();
         // @todo - check collision (detchHit -> f)
-        let hit = detectHit(hero, shrek);
+        let hit = detectHit(donkey, shrek);
     }
-    // render hero
-    hero.render();
+    // render donkey
+    donkey.render();
 }
 
 // change 
